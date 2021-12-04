@@ -1,12 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
+import MapViewData from './src/MapViewData';
+import Camera from './src/CameraApp';
+import GalleryImage from './src/ImageGallery'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+     {/* <Camera/> */}
+     {/* <GalleryImage/> */}
+     <MapViewData/>
     </View>
   );
 }
